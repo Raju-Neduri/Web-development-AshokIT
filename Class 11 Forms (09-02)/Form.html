@@ -7,30 +7,70 @@
 </head>
 
 <body>
-  <h1>Forms</h1>
-  <p>
-  <form action="">
-    <label>First name:</label> <!--The <label> tag defines a label for many form elements.-->
-    <input type="text" name="Fname"><br> <br><!-- <input type="text">	Displays a single-line text input field-->
+  <center>
+    <h1>Form</h1>
+    <p>
+    <form action="">
+      <label>First name:</label> <!--The <label> tag defines a label for many form elements.-->
+      <input type="text" name="Fname"><br> <br><!-- <input type="text">	Displays a single-line text input field-->
 
-    <label>Last name:</label>
-    <input type="text" name="Lname"><br><br>
+      <label>Last name:</label>
+      <input type="text" name="Lname"><br><br>
 
-    <label>City:</label>
-    <input type="text" name="City"><br><br>
+      <label>City:</label>
+      <input type="text" name="City"><br><br>
 
-    <label>Email</label>
-    <input type="text" name="email"><br><br>
 
-    <label>Password</label>
-    <input type="password" name="Password"> <br><br>
+      <label>State :</label>
+      <select name="state">
+        <option>Select an option</option>
+        <option value="Telangana">Telangana</option>
+        <option value="Tamilnadu">Tamilnadu</option>
+        <option value="kerala">kerala</option>
+        <option value="Karanataka">Karanataka</option>
 
-    <input type="submit" value="Login">
+      </select>
 
-    <button>Submit</button>
+      <br><br>
 
-  </form>
-  </p>
+      <label>Hobbies :</label>
+      <input type="checkbox" name="Reading">
+      <label>Reading</label>
+
+      <input type="checkbox" name="writing">
+      <label>Writing</label>
+      <input type="checkbox" name="Cooking">
+      <label>Cooking</label>
+
+      <input type="checkbox" name="painting">
+      <label>Painting</label>
+      <br><br>
+
+      <label>Gender</label>
+      <input type="radio" name="Gender">
+      <label> Male</label>
+      <input type="radio" name="Gender">
+      <label> female</label>
+      <br><br>
+
+      <label>Email</label>
+      <input type="text" name="email"><br><br>
+
+      <label>Password</label>
+      <input type="password" name="Password"> <br><br>
+
+      <label>Feedback</label>
+      <textarea name="Feedback" cols="30" rows="10"></textarea>
+      <br><br>
+
+      <input type="submit" value="Login">
+
+      <button>Submit</button>
+
+    </form>
+    </p>
+  </center>
 </body>
+
 
 </html>
