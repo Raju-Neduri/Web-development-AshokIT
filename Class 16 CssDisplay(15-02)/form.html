@@ -1,0 +1,102 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form tag</title>
+</head>
+
+<body>
+  <center>
+    <h1>Form</h1>
+    <p>
+    <form action="#" method="post" autocomplete="on">
+      <label>First name:</label> <!--The <label> tag defines a label for many form elements.-->
+      <input type="text" name="Fname" required> <br>
+      <br><!-- <input type="text">	Displays a single-line text input field-->
+
+      <label>Last name:</label>
+      <input type="text" name="Lname"><br><br>
+
+      <label>City:</label>
+      <input type="text" name="City"><br><br>
+
+
+      <label>State :</label>
+      <select name="state">
+        <option>Select an option</option>
+        <option value="Telangana">Telangana</option>
+        <option value="Tamilnadu">Tamilnadu</option>
+        <option value="kerala">kerala</option>
+        <option value="Karanataka">Karanataka</option>
+
+      </select>
+      <br><br>
+
+      <label>Date of birth</label>
+      <input type="date" name="newinput">
+      <br><br>
+      <label>Month of joining</label>
+      <input type="month" name="month">
+      <br><br>
+      <label>Week of joining</label>
+      <input type="week" name="week">
+      <br><br>
+      <label>Arrival time</label>
+      <input type="time" name="time">
+      <br><br>
+
+      select number:<input type="number" min="0" max="10" step="1" value="1" name="num"> <br> <br>
+      select another num:<input type="range" min="0" max="10" step="1" value="10" name="num"> <br> <br>
+
+      <label>Hobbies :</label>
+      <input type="checkbox" name="Reading">
+      <label>Reading</label>
+      <input type="checkbox" name="writing">
+      <label>Writing</label>
+      <input type="checkbox" name="Cooking">
+      <label>Cooking</label>
+
+      <input type="checkbox" name="painting">
+      <label>Painting</label>
+      <br><br>
+
+      <label>Gender</label>
+      <input type="radio" name="Gender">
+      <label> Male</label>
+      <input type="radio" name="Gender">
+      <label> female</label>
+      <br><br>
+
+      website:<input type="url" name="ninput"> <br><br>
+
+      <label>Email</label>
+      <input type="text" name="email"><br><br>
+
+      <label>Password</label>
+      <input type="password" name="Password"> <br><br>
+
+      upload resume:<input type="file" name="resume"> <br><br>
+
+      search: <input type="search" name="search"> <br> <br>
+
+      <label>Colour picker</label>
+      <input type="color">
+      <br><br>
+
+      <label>Feedback</label>
+      <textarea name="Feedback" cols="30" rows="10"></textarea>
+      <br><br>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+
+
+
+    </form>
+    </p>
+  </center>
+</body>
+
+
+</html>
