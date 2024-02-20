@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,46 +10,62 @@
       padding: 10px;
     }
 
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    main {
+      margin: 20px 0;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
     p.para1 {
-      text-decoration: overline;
+      text-decoration: overline red wavy;
       text-decoration-color: red;
       text-decoration-style: wavy;
-      text-decoration: none;
     }
 
     p.para2 {
-      text-decoration: line-through;
-      text-decoration-color: blueviolet;
+      text-decoration: line-through blueviolet;
     }
 
     p.para3 {
-      text-decoration: underline;
-      text-decoration-color: chocolate;
-      text-decoration: dashed blueviolet solid 3px;
+      text-decoration: underline dashed blueviolet solid 3px;
+      text-underline-position: under;
     }
   </style>
 </head>
 
 <body>
-  <h1>US-owned ship reports missile attack off Yemen, sources say</h1>
-  <p class="para1">
-    A Greece-flagged, U.S.-owned cargo ship reported two missile attacks on Monday in the Gulf of Aden and called for
-    military assistance, Greek shipping ministry sources and British maritime security firm Ambrey said.
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto natus voluptatem nemo eligendi! Quod perferendis
-    vitae enim? Eligendi magni non consequatur incidunt labore laboriosam veniam, nulla maxime, voluptates suscipit
-    similique.
-  </p>
+  <div class="container">
+    <h1>US-owned ship reports missile attack off Yemen, sources say</h1>
+    <main>
+      <p class="para1">
+        A Greece-flagged, U.S.-owned cargo ship reported two missile attacks on Monday in the Gulf of Aden and called
+        for
+        military assistance, Greek shipping ministry sources and British maritime security firm Ambrey said.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto natus voluptatem nemo eligendi! Quod perferendis
+        vitae enim? Eligendi magni non consequatur incidunt labore laboriosam veniam, nulla maxime, voluptates suscipit
+        similique.
+      </p>
 
-  <p class="para2">
-    Separately, Britain’s maritime agency (UKMTO) said it had received a report from a vessel located 100 miles east of
-    Yemen’s port of Aden indicating an explosion close to it.
-  </p>
+      <p class="para2">
+        Separately, Britain’s maritime agency (UKMTO) said it had received a report from a vessel located 100 miles east
+        of
+        Yemen’s port of Aden indicating an explosion close to it.
+      </p>
 
-  <p class="para3">
-    The Sea Champion, with 23 crew members, was sailing from Argentina to Aden carrying grain when it was attacked,
-    Greek shipping ministry sources told Reuters. There were two attempted attacks with missiles which exploded 10-15
-    metres from the ship, damaging a window, the sources added. </p>
-
+      <p class="para3">
+        The Sea Champion, with 23 crew members, was sailing from Argentina to Aden carrying grain when it was attacked,
+        Greek shipping ministry sources told Reuters. There were two attempted attacks with missiles which exploded
+        10-15
+        metres from the ship, damaging a window, the sources added. </p>
+    </main>
+  </div>
 </body>
 
 </html>
